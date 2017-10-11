@@ -1,0 +1,50 @@
+.investment-preview {
+	margin: 4em 0 2em 0;
+	a {
+		text-decoration: none;
+		img {
+			width: 100%;
+		}
+		.address {
+			color: #fefefe;
+			font-size: 18px;
+			padding: 14px;
+			background: #192935;
+			margin-top: -1px;
+		}
+	}
+}
+.property-image {
+	margin: 4em 0 2em 0;
+	img {
+		width: 100%;
+	}
+	.address {
+		color: #fefefe;
+		font-size: 18px;
+		padding: 14px;
+		background: #192935;
+		margin-top: -1px;
+	}
+}
+.property-description {
+	margin: 1em 0 2em 0;
+}
+.sq-ft, .purchase-info, .financing, .returns {
+	padding: 0.7em 0;
+	border-bottom: 2px solid #e1e1e1;
+	p {
+		span{
+			color: #2c4f79;
+			font-weight: bold;
+		}
+	}
+	h4 {
+		color: #ff8b3e;
+		padding-left: 14px;
+	}
+}
+.sq-ft {
+	margin-top: 3em;
+}
+

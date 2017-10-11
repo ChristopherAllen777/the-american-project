@@ -1,0 +1,100 @@
+.site-header {
+	.hero {
+		background-image: url("http://americastaging.wpengine.com/wp-content/uploads/2017/09/American-Project_asset_homepage_header-1.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		min-height: 70vh;
+		position: relative;
+		&.subpage {
+			/*background-image: url("images/bg-subpages.jpg");*/
+			background-image: url("http://americastaging.wpengine.com/wp-content/uploads/2017/09/American-Project_asset_homepage_header-1.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+			min-height: 15vh;
+			border-bottom: 10px solid #192935;
+			.navbar {
+				background-color: #fefefe;
+			}
+			.company-name {
+				top: 50%;
+    			transform: translateY(-25%);
+			}
+		}
+		.logo {
+			color: #002157;
+			text-transform: uppercase;
+			letter-spacing: 1.5px;
+			text-decoration: none;
+		}
+		.navbar {
+			padding-top: 1em;
+			background: transparent;
+			.navbar-header {
+				button {
+					margin: 0;
+					padding: 0;
+					.icon-bar{
+						background-color: #002157;
+					}
+				}
+			}
+			ul {
+				list-style-type: none;
+				float: none;
+				background-color: #002157;
+				color: #fefefe;
+				@media(min-width: 768px){
+					float: right;
+					background-color: transparent;
+				}
+				li {
+					&:not(:last-of-type){
+						@media(min-width: 768px){
+							padding-right: 2.5em;
+						}
+					}
+					a {
+						color: #fefefe;
+						text-transform: uppercase;
+						letter-spacing: 1.5px;
+						padding: 10px;
+						@media(min-width: 768px){
+							color: #002157;
+							padding: 0;
+						}
+					}
+					a:hover {
+						border: 0;
+						text-decoration: none;
+						background-color: #A9A9A9;
+						color: #fefefe;
+						@media(min-width: 768px){
+							border-bottom: 2px solid #ff7012;
+							background-color: transparent;
+							color: #002157;
+						}
+					}
+				}
+			}
+		}
+		.company-name {
+			color: #ffffff;
+			vertical-align: middle;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			h1 {
+				text-shadow: 0 0 40px rgba(0,0,0,0.9);
+			}
+		}
+		.banner {
+			background-color: #001942;
+			color: #ffffff;
+			letter-spacing: 1px;
+			opacity: 0.8;
+			padding: 1.5em 0;
+			position: absolute;
+			bottom: 0;
+		}
+	}
+}

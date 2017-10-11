@@ -1,0 +1,26 @@
+.hero{
+	background-image: url("http://americastaging.wpengine.com/wp-content/uploads/2017/09/American-Project_asset_homepage_header-1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	.logo{
+		color: #001942;
+		text-transform: uppercase;
+		float: left;
+	}
+	.company-name{
+		color: #ffffff;
+		vertical-align: middle;
+	}
+	.banner{
+		background-color: #001942;
+		opacity: 0.5;
+		padding: 1em 0;
+	}
+}
+.ticker{
+	background-color: #ffffff;
+	h1{
+		color: #015b9b;
+		font-weight: bold;
+	}
+}
